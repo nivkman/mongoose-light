@@ -1,8 +1,9 @@
 {
   "name": "mongoose-light",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "Simplify your MongoDB connections with Mongoose using just one line of code",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/nivkman/mongoose-light.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "mongoose",
+    "mongodb",
+    "database",
+    "connection",
+    "simplify"
+  ],
+  "author": "Niv Kaufman",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nivkman/mongoose-light/issues"
