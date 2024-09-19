@@ -1,0 +1,23 @@
+{
+  "name": "mongoose-light",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nivkman/mongoose-light.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nivkman/mongoose-light/issues"
+  },
+  "homepage": "https://github.com/nivkman/mongoose-light#readme",
+  "dependencies": {
+    "mongoose": "^8.6.3"
+  }
+}
