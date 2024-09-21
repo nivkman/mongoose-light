@@ -6,10 +6,7 @@ class InitializeDb {
   async initializeMongoDb({ databaseUrl, service = "" }) {
     try {
       const servicePath = service ? `/${service}` : "";
-      await mongoose.connect(`${databaseUrl}${servicePath}`, {
-        useUnifiedTopology: true,
-        useNewUrlParser: true,
-      });
+      await mongoose.connect(`${databaseUrl}${servicePath}`);
       console.log("[mongodb] DB connected successfully");
     } catch (error) {
       console.error("[mongodb] Connection error:", error);
