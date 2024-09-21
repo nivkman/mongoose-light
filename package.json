@@ -1,6 +1,6 @@
 {
   "name": "mongoose-light",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simplify your MongoDB connections with Mongoose using just one line of code",
   "main": "src/index.js",
   "type": "module",
