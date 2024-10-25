@@ -10,6 +10,7 @@ class InitializeDb {
         useUnifiedTopology: true,
         useNewUrlParser: true,
         useCreateIndex: true,
+        useFindAndModify: false,
       });
       console.log("[mongodb] DB connected successfully");
     } catch (error) {
